@@ -1,0 +1,72 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.inputer {
+    flex: 1;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border: 12px solid #000000;
+
+
+}
+.submit-btn {
+    height: 40px;
+    width: 60px;
+    background-color: #f6f5f5;
+    border-radius: 6px;
+    transition: 0.5s ease-in;
+
+}
+.submit-btn:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+
+}
+.shopping-cart {
+    height: 33px;
+    translate: 500%;
+}
+.user-icon {
+    height: 30px;
+    translate: 1000%;
+    cursor: pointer;
+}
+.heart-icon {
+    height: 30px;
+    translate: 1130%;
+}
+.supporting {
+    height: 30px;
+    translate: 1380%;
+}
+.img-container {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 25px   ;
+    background-image: url("../static/header-text.png");
+    background-repeat: no-repeat;
+}
+.former {
+
+}
+.font-container {
+    position: absolute;
+    right: 200px;
+}
+.fdbk {
+    width: 30px;
+    height: 30px;
+    translate: 1270%;
+    opacity: 0;
+}
+.end {
+    position: absolute;
+    left: 1030px;
+    opacity: 0;
+}

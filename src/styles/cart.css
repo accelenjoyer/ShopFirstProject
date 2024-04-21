@@ -1,0 +1,62 @@
+
+.cart-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-info {
+    width: 60%;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.product-name, .product-price {
+    flex: 1;
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px ;
+    font-weight: bold;
+}
+
+.name, .price {
+    flex: 1;
+    position: absolute;
+    top: 1px;
+}
+.price {
+    left: 1095px;
+}
+.name {
+    left: 675px;
+
+}
+.payment-button {
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 15px 25px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.payment-button:hover {
+    background-color: #45a049; /* Темно-зеленый цвет фона при наведении */
+}

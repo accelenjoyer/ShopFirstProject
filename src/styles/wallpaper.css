@@ -1,0 +1,32 @@
+.wallpaper-container {
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-105%);
+    border-radius: 40px;
+    background-size: 1500px 300px;
+    background-color: #eeeaea;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    z-index: 2;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: bold;
+
+
+}
+.tasks {
+    font-size: 17px;
+}
+ul {
+;
+}
+
+/* Примените этот стиль к элементам списка */
+li {
+    list-style-position: inside; /* Помещаем маркеры внутрь блока списка */
+}
+
+
+
